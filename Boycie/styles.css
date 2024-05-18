@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+html,body  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    height: 100%; 
+     
+}
+
+/* Navbar */
+
+#navbar {
+  background: #333;
+  color: aliceblue;
+  overflow: auto; 
+}
+
+#navbar li, a {
+   color: aqua;
+   margin: 10px;  
+}
+
+#navbar ul {
+   display: flex;
+   flex-direction: row;
+   padding: 10px;
+   margin: 5px;
+   list-style-type: none;
+}
+
+#navbar  a:hover {
+   color: chocolate;
+}
+
+/* Header */
+
+.container {
+    background: url(pics/Boycie.JPG)no-repeat center center/cover;
+    height: 200vh;
+    position: relative;
+    color: #fff;
+   
+}
+
+a {
+    
+    text-decoration: none;
+}
+
+h1 {
+    padding: 25px;
+    text-align: center;
+    color: chocolate;   
+}
+
+h2 {
+    padding: 10px;
+    margin: 0 10px;
+    text-align: center;
+    color: #fff;
+}
+
+h3 {
+    padding: 10px;
+    margin: 0 50px;
+}
+
+ul, li {
+    display: block;
+    text-align: left;
+    padding: 0 20px;
+    margin: 0 20px;
+    line-height: 1.7em;
+    list-style-type: none;
+    color: chocolate;
+}
+
+p {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color:chocolate;
+}
+
+/*  video */
+
+.player {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 500px;
+    margin-bottom: 300px;
+}
+
+.player button {
+    display: block;
+    padding: 10px;
+    margin-left: 130px;
+    background-color: aqua;
+    border-radius: 10px;
+    
+ }
+
+button:hover {
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+.play-wrapper  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+    margin-left: 520px;
+    display: none;
+    
+}
+
+.play-wrapper video {
+    margin-left: 60px;
+    height: 300px;   
+}
+
+.vid-close p {
+    position: absolute;
+    font-size: large;
+    bottom: 45px;
+    
+}
+.vid-close p:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+ 
+ 
+
