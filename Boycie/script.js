@@ -11,9 +11,9 @@ close.addEventListener('click', () => {
     video.style.display = 'none';   
 });
 
-play.addEventListener('click', playPauseMedia);
+video.addEventListener('click',);
 function playPauseMedia() {
-    if (media.paused) {
+    if (media.stopped) {
         media.play();    
     } else {
         media.pause();
