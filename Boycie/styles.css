@@ -1,8 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box; 
 }
+
 
 /* Navbar */
 
@@ -34,13 +35,18 @@
 
 /* Body */
 
-.container-head .container {
+
+.container-head  {
     background: url(pics/Boycie.JPG) no-repeat center center/cover;
     height: 200vh;
+    
+}
+
+.container {
     position: relative;
     color: chocolate;
     font-weight: bold;
-    
+    overflow: hidden;
 }
 
 .container h1 {
@@ -66,11 +72,13 @@
     left: 70%;
     top: 25px;
     font-size: 1.3rem;
+    
 }
 
 .list-1 > h3 {
     font-size: 1.7rem;
     margin-bottom: 10px;
+    color: black;
 }
 
 .list-1 ul {
@@ -92,6 +100,7 @@
 .list-2 > h3 {
     font-size: 1.7rem;
     margin-bottom: 10px;
+    color: white;
 }
 
 .list-2 ul {
@@ -102,14 +111,112 @@
     line-height: 30px;
 }
 
+/* Home Video */
+
+.player {
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    align-items: center;
+}
+
+.player button {
+    padding: 10px;
+    background: aqua;
+    border-radius: 10px;
+    position: relative;
+    left: 120px;
+}
+
+.player button:hover {
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+.player p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: chocolate;
+    line-height: 40px;
+    top: 5px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;  
+}
+
+/* Video */
+
+.play-wrapper{
+    position: absolute;
+    left: 640px;
+    top: 550px; 
+    display: none;
+}
+
+.playing {
+    height: 500px;
+    font-size: 30px;
+    color: chocolate;
+    margin: 0;
+}
+
+.playing p {
+    position: relative;
+    right: 30px;
+    top: 30px;
+    font-weight: bold;
+}
+
+.playing > .vid-close > p:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+.play {
+    height: 300px;
+    
+}
+
+/* Footer */
+
+#main-footer {  
+    position: absolute; 
+    display: block; 
+    background-color: #333;
+    height: 73px;
+    width: 100%;
+    overflow: hidden;
+    }
+
+#main-footer p { 
+    
+    text-align: center;
+    padding-top: 7px;
+    margin: 1px 0;
+    color: chocolate;
+    font-weight: bold;
+    font-size: 1.3rem;
+    
+}
+
 /* About */
 
-.container-about {
-    background: url(./pics/OFAH.Boyce.avif)no-repeat center center/cover;
-    height: 200vh;
-    position: relative;
-    color: #fff;
+.about-container {
+    position: absolute;
     text-align: center;
+    top: 700px;
+    margin: 200px; 
+}
+
+#about {
+    font-weight: bold;
+    color: chocolate;
+    line-height: 40px;
+    font-size: 1.5rem;
+}
+
+#about h1 {
+    margin-bottom: 30px;
 }
 
 
