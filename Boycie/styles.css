@@ -29,7 +29,7 @@
    list-style-type: none;
 }
 
-#navbar  a:hover {
+#navbar a:hover {
    color: chocolate;
 }
 
@@ -39,7 +39,7 @@
 .container-head  {
     background: url(pics/Boycie.JPG) no-repeat center center/cover;
     height: 200vh;
-    
+   
 }
 
 .container {
@@ -47,6 +47,7 @@
     color: chocolate;
     font-weight: bold;
     overflow: hidden;
+    height: 100%;
 }
 
 .container h1 {
@@ -70,14 +71,15 @@
     position: relative;
     display: inline-block;
     left: 70%;
-    top: 25px;
+    top: 30px;
     font-size: 1.3rem;
     
 }
 
-.list-1 > h3 {
+.list-1 h3 {
     font-size: 1.7rem;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    right: 40px;
     color: black;
 }
 
@@ -97,9 +99,10 @@
     font-size: 1.3rem;
 }
 
-.list-2 > h3 {
+.list-2 h3 {
     font-size: 1.7rem;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    right: 95px;
     color: white;
 }
 
@@ -219,6 +222,69 @@
     margin-bottom: 30px;
 }
 
+/* Blog, navabar */
+
+
+#navbar-blog {
+    background: #333;
+    color: aliceblue;
+    overflow: auto; 
+    
+  }
+  
+  #navbar-blog li, a {
+     color: aqua;
+     margin: 10px; 
+     text-decoration: none; 
+     font-size: 20px;
+  }
+  
+  #navbar-blog ul {
+     display: flex;
+     flex-direction: row;
+     padding: 10px;
+     margin: 5px;
+     list-style-type: none;
+  }
+  
+  #navbar-blog a:hover {
+     color: chocolate;
+  }
+
+#blog-container {
+    background: url(pics/Garden.jpeg) no-repeat center center/cover;
+    height: 120vh;
+    max-width: auto;
+    z-index: -1;
+}
+
+#blog-container h1, h3 {
+    position: relative;
+    top: 40px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+.story {
+    line-height: 30px;
+}
+
+
+.story p {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    display: flex;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: chocolate;
+    background-color: lightgrey;
+    
+  }
 
 
  
